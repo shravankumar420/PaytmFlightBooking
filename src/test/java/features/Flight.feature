@@ -1,7 +1,6 @@
-Feature: user orders Hoodies
+Feature: user searched for Flight
 @Flight
-Scenario: user place order for hoodies
-
+Scenario: user books flight ticket
 Given user enter "DEL" text into "From"
 And user click on "DEL"
 And user enter "HYD" text into "To"
