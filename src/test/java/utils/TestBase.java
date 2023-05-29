@@ -47,7 +47,7 @@ public class TestBase {
 			else {
 				System.out.println("slet the browser");
 			}
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.get(url);
 		}
 

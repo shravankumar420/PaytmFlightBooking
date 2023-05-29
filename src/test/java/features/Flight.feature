@@ -1,10 +1,10 @@
 Feature: user searched for Flight
     @Flight
     Scenario: user books flight ticket
-        Given user enter "DEL" text into "From"
-        And user click on "DEL"
-        And user enter "HYD" text into "To"
-        And user click on "HYD"
+        Given user enter "BLR" text into "From"        
+        And user click on "Bengaluru"
+        And user enter "HYD" text into "To"       
+        And user click on "Hyderabad"
         And user click on "Departure-Date"
         Then user click on "moveToNext" icon
         Then user click on "moveToNext" icon
